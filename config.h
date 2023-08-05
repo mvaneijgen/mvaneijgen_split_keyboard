@@ -12,6 +12,11 @@
 #define DIODE_DIRECTION COL2ROW
 #define MATRIX_ROW_PINS { D7, E6, B4, B5 }
 #define MATRIX_COL_PINS { B6, B2, B3, B1, F7, F6 }
+#define NUMBER_OF_ENCODERS 2
+#define ENCODERS_PAD_A { }
+#define ENCODERS_PAD_B { }
+#define ENCODERS_PAD_A_RIGHT { D4 }
+#define ENCODERS_PAD_B_RIGHT { C6 }
 #define UNUSED_PINS
 #define USE_SERIAL
 #define SOFT_SERIAL_PIN D0 
