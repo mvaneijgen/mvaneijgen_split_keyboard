@@ -151,7 +151,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [_CTRL] = LAYOUT(
     KC_FORC, KC_CAPW, KC_CTXT, KC_UP, KC_CAPP, KC_CREC, _______, KC_TLFT, KC_MFFD, KC_TRGT, _______, KC_SYSTEM_SLEEP, 
     _______, _______, KC_LEFT, KC_DOWN, KC_RIGHT, KC_BRMD, KC_BRMU, RSFT_T(KC_VOLD), RGUI_T(KC_MPLY), LALT_T(KC_VOLU), RCTL_T(KC_MUTE), _______,
-    _______, _______, _______, _______, _______, _______, _______, _______, KC_MRWD, _______, _______, _______,
+    DT_PRNT, DT_UP, DT_DOWN, _______, _______, _______, _______, _______, KC_MRWD, _______, _______, _______,
     _______, _______, _______, _______, _______, _______, _______, _______
   ),
   [_RESET] = LAYOUT(
